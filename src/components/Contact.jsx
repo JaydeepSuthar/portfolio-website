@@ -5,7 +5,10 @@ const Contact = () => {
 				<div className="main-container">
 					<h3 style={{ textAlign: "center" }}>Get in Touch</h3>
 
-					<form id="contact-form" netlify>
+					<form name="contact" id="contact-form" method="POST">
+						{/* for netlify form */}
+						<input type="hidden" name="form-name" value="contact" />
+						
 						<label htmlFor="name">Name</label>
 						<input
 							type="text"
