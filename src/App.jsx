@@ -26,8 +26,8 @@ const App = () => {
 
 				<About image={image} />
 
-				<Portfolio image={image} />
-				
+				<Portfolio />
+
 				<Contact />
 			</main>
 		</>

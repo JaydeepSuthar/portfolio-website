@@ -33,9 +33,9 @@ const About = ({ image }) => {
 							<div id="skills">
 								<ul>
 									<li>Javascript</li>
-									<li>Node</li>
-									<li>React</li>
-									<li>Postgres</li>
+									<li>NodeJS</li>
+									<li>ReactJS</li>
+									<li>PostgreSQL</li>
 									<li>MongoDB</li>
 								</ul>
 								<ul>
@@ -46,23 +46,27 @@ const About = ({ image }) => {
 							</div>
 						</div>
 						<div className="social-links">
-							<img
+							{/* <img
 								src={image}
 								alt="follow me on social media"
 								id="social_img"
-							/>
+							/> */}
 
 							<h3>Find Me on Social Media</h3>
 
-							<a target="_blank" href="#github" id="github">
+							<a
+								target="_blank"
+								href="https://github.com/JaydeepSuthar"
+								id="github"
+							>
 								Github: @JaydeepSuthar
 							</a>
-							<a target="_blank" href="#twitter" id="twitter">
+							{/* <a target="_blank" href="#twitter" id="twitter">
 								Twitter: @JaydeepSuthar
 							</a>
 							<a target="_blank" href="#youtube" id="youtube">
 								Youtube: Jaydeep Suthar
-							</a>
+							</a> */}
 						</div>
 					</div>
 				</div>
