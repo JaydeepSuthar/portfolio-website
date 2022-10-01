@@ -29,7 +29,10 @@ const App = () => {
 								alt="Profile Image"
 							/>
 							<h5
-								style={{ textAlign: "center", lineHeight: "0" }}
+								style={{
+									textAlign: "center",
+									lineHeight: "0",
+								}}
 							>
 								Personalize Theme
 							</h5>
@@ -212,8 +215,38 @@ const App = () => {
 				</div>
 			</section>
 
-			<section className="section-1">
-				<div className="main-container">Contact</div>
+			<section className="section-2">
+				<div className="main-container">
+					<h3 style={{ textAlign: "center" }}>Get in Touch</h3>
+
+					<form id="contact-form">
+						<label htmlFor="name">Name</label>
+						<input
+							type="text"
+							className="input-field"
+							name="name"
+						/>
+
+						<label htmlFor="subject">Subject</label>
+						<input
+							type="text"
+							className="input-field"
+							name="subject"
+						/>
+
+						<label htmlFor="email">Email</label>
+						<input
+							type="email"
+							className="input-field"
+							name="email"
+						/>
+
+						<label htmlFor="message">Message</label>
+						<textarea className="input-field" name="message" />
+
+						<input id="submit-btn" type="submit" value="Send" />
+					</form>
+				</div>
 			</section>
 		</>
 	);
