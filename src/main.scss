@@ -310,6 +310,39 @@ body {
 	right: -5px;
 }
 
+.about-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+	gap: 100px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+
+	background-color: var(--preview-shadow);
+}
+
+.social-links {
+	display: grid;
+	align-content: center;
+	text-align: center;
+}
+
+#social_img {
+	// display: block;
+	// margin: 0 auto;
+
+	// height: 200px;
+	// width: 200px;
+	// object-fit: cover;
+	// border: 2px solid var(--border-color);
+}
+
 @media screen and (max-width: 1200px) {
 	:root {
 		--main-container-width: 95%;
